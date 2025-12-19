@@ -1,0 +1,37 @@
+.footerWrapper {
+  background-color: var(--primary);
+  color: white;
+  display: flex;
+  align-items: center;
+  border-top: 3px solid var(--primary2);
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.logo {
+  height: 3.5rem;
+  font-weight: bold;
+}
+
+.logoAndHeading{
+    display: flex;
+    padding-left: 10px;
+}
+
+.stroke-text {
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.footerIcons {
+  font-size: 25px;
+  display: flex;
+  gap: 10px;
+  padding-right: 10px;
+}
+
+.icons {
+  color: var(--primary2);
+}

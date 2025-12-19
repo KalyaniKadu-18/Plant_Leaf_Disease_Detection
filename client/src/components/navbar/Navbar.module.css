@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar_logo {
+  display: flex;
+  height: 2rem;
+  width: auto;
+  border-radius: 5px;
+}
+
+.Navbar {
+  width: 100%;
+  height: 3rem;
+  background: transparent;
+  font-family: "Nerko One", cursive;
+  font-size: 20px;
+  background-color: rgba(0,0,0,0.4);
+  background-color: var(--primary);
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.Navbar_left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 2rem;
+}
+
+.Navbar_right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-right: 2rem;
+}
+
+.link , .authBtn{
+  color: var(--primary2);
+  font-weight: 500;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+@media (maxwidth: 748) {
+  .Navbar {
+    padding: 0 1rem;
+    height: 3rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .Navbar_left {
+    padding: 1rem;
+  }
+
+  .Navbar_right {
+    padding: 1rem;
+  }
+
+  .Navbar_left,
+  .Navbar_right {
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .Navbar_logo {
+    height: 1.5rem;
+  }
+}

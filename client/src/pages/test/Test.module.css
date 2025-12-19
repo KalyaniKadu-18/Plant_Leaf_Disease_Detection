@@ -1,0 +1,92 @@
+.TestWrapper {
+  position: relative;
+  width: 100%;
+  height: 97vh;
+  overflow: hidden;
+}
+
+.bgimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.TestOverlay {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: var(--primary);
+  border: 2px solid var(--primary2);
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  left: 50%;
+  top: 50%;
+  width: 60%;
+  height: auto;
+}
+
+.leftContainer {
+  margin: 20px;
+}
+
+.TextContainerHeading1,
+.TextContainerHeading2,
+.filelabel {
+  color: var(--primary2);
+  margin-top: 20px;
+}
+
+.TextContainerHeading1{
+  font-size: 40px;
+}
+
+.TextContainerHeading2 {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.TextPara{
+  color: var(--primary2);
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.VerifyBtn{
+  margin-top: 30px;
+  padding: 12px 35px;
+  width: 70%;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  background: var(--primary2);
+  color: white;
+  transition: 0.3s ease;
+}
+.strokeText {
+  color: transparent;
+  -webkit-text-stroke: 0.5px white;
+}
+
+.previewImg {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 2px solid var(--primary2);
+  margin-top: 10px;
+}
+
+.imageWrapper{
+  border:  2.5px solid var(--primary2);
+  width: 260px;
+  height: 260px;
+  align-items: center;
+  text-align: center;
+  object-fit: cover;
+  margin-top: 10px;
+}
