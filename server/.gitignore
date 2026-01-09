@@ -1,0 +1,96 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+.venv/
+ENV/
+virtualenv/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# Dataset (VERY IMPORTANT)
+# =========================
+dataset/
+data/
+train/
+test/
+validation/
+images/
+*.zip
+*.rar
+*.tar
+*.tar.gz
+
+# =========================
+# Model files
+# =========================
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pkl
+
+# =========================
+# Logs & Output
+# =========================
+logs/
+*.log
+runs/
+results/
+outputs/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+
+# =========================
+# Flask / FastAPI
+# =========================
+instance/
+*.db
+*.sqlite3
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+.idea/
+.spyderproject
+.spyderworkspace
+
+# =========================
+# Cache & Temp
+# =========================
+.cache/
+.tmp/
+.temp/
