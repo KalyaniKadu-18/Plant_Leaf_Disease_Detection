@@ -19,7 +19,6 @@ function Navbar() {
 
         <Link to="/" className={styles.link}>Home</Link>
         <Link to="/test" className={styles.link}>Test</Link>
-        <Link to="/explore" className={styles.link}>Explore</Link>
         <Link to="/history" className={styles.link}>History</Link>
         <Link to="/about" className={styles.link}>About</Link>
       </div>

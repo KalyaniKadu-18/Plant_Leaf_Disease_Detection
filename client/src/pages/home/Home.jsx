@@ -3,8 +3,15 @@ import bgImg from "../../assets/home_bg_img.jpg";
 import styles from "./Home.module.css";
 import logo_img from "../../assets/PLDD_logo.png";
 import Footer from "../../components/footer/Footer";
+import { Navigate, useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
+
+  const onClick = () => {
+    navigate("/test");
+  };
+
   return (
     <div className={styles.homeWrapper}>
       <img src={bgImg} alt="background" className={styles.bgImage} />
@@ -23,11 +30,17 @@ function Home() {
               <span className={styles.strokeText}> Leaf </span>
             </div>
             <span>Diseases Instantly</span>
-                    <button className={styles.getStarted} >Get Started</button>
+            <button
+              type="submit"
+              onClick={onClick}
+              className={styles.getStarted}
+            >
+              Get Started
+            </button>
           </div>
         </div>
       </div>
-          <Footer/>
+      <Footer />
     </div>
   );
 }
